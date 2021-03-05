@@ -31,6 +31,10 @@ WHERE `name` LIKE 'D%'
 
 5. Calcolare il totale degli ospiti paganti.
 
+
+
+/------------------------------------------------------------------------------------------
+
 6. Qual è il prezzo massimo pagato?
 
 7. Seleziona gli ospiti riconosciuti con patente e nati nel 1975.
