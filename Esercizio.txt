@@ -31,11 +31,19 @@ WHERE `name` LIKE 'D%'
 
 5. Calcolare il totale degli ospiti paganti.
 
-
+SELECT COUNT(status)
+FROM `pagamenti` 
+WHERE `status`='accepted'
 
 /------------------------------------------------------------------------------------------
 
 6. Qual è il prezzo massimo pagato?
+
+SELECT MAX(price)
+FROM `pagamenti` 
+WHERE `status`='accepted'
+
+/------------------------------------------------------------------------------------------
 
 7. Seleziona gli ospiti riconosciuti con patente e nati nel 1975.
 
