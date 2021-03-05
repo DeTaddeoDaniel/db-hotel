@@ -47,4 +47,10 @@ WHERE `status`='accepted'
 
 7. Seleziona gli ospiti riconosciuti con patente e nati nel 1975.
 
+SELECT * 
+FROM `ospiti` 
+WHERE YEAR(`date_of_birth`) > '1975' AND `document_type` = 'driver license'
+
+/------------------------------------------------------------------------------------------
+
 8. Quanti posti letto ha l'hotel in totale?
