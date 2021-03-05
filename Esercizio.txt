@@ -1,7 +1,13 @@
-Esercizi sql
+Esercizi sql da una base di dati
 
+/------------------------------------------------------------------------------------------
 1. Seleziona tutti gli ospiti che sono stati identificati con la carta di identità.
 
+SELECT * 
+FROM `ospiti`
+WHERE `document_type` = 'ci'
+
+/------------------------------------------------------------------------------------------
 
 2. Seleziona tutti gli ospiti che sono nati dopo il 1988.
 
